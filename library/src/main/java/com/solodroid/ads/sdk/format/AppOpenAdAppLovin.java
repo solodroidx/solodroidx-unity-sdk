@@ -35,7 +35,7 @@ public class AppOpenAdAppLovin {
 
     public boolean isAdAvailable() {
         //return appOpenAd != null && wasLoadTimeLessThanNHoursAgo(4);
-        return true;
+        return false;
     }
 
     public void showAdIfAvailable(@NonNull final Activity activity, String appOpenAdUnitId) {

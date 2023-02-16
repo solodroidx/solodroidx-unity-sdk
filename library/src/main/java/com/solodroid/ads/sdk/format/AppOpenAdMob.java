@@ -35,7 +35,7 @@ public class AppOpenAdMob {
     }
 
     public boolean isAdAvailable() {
-        return true;
+        return false;
     }
 
     public void showAdIfAvailable(@NonNull final Activity activity, String appOpenAdUnitId) {
